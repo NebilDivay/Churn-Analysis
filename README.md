@@ -1,38 +1,38 @@
 # Churn Analysis & Retention Strategy
-##Project Overview
+## Project Overview
 
 This repository contains the core analytical artifact (Churn_Analysis.pbix) used to understand, quantify, and address customer attrition. The project's goal is to identify the structural drivers of customer churn and provide data-backed recommendations for immediate retention strategy adjustments.
 
 The analysis is based on a dataset of 7,043 customers, showing an overall churn rate of 26.55%.
-##Key Analytical Findings
+## Key Analytical Findings
 
 The dashboard reveals that churn is not random, but concentrated in three specific, high-leverage areas. Fixing these structural issues will have the greatest impact on long-term retention.
-###1. The Contract Volatility Trap (The Primary Driver)
-
-Contract Type
-	
-
-% of Total Churn
-	
-
-Finding
+### 1. The Contract Volatility Trap (The Primary Driver)
 
 Month-to-Month
 	
 
-88.5%
+% of Total Finding: 88.5%
 	
 
+Finding: 
 This contract type is the single largest predictor of churn. Customers on flexible plans are inherently unstable.
 
-One Year / Two Year
+
 	
 
-11.5%
+
 	
 
-Longer-term contracts are highly effective retention mechanisms.
-###2. The Service Protection Gap
+
+Contract Type: One Year / Two Year
+	
+
+% of Total Finding: 11.5%
+	
+
+Finding: Longer-term contracts are highly effective retention mechanisms.
+### 2. The Service Protection Gap
 
 Customers are leaving due to a perceived lack of safety net and support when issues arise.
 
@@ -42,7 +42,7 @@ Customers are leaving due to a perceived lack of safety net and support when iss
 
     Fiber Optic and Electronic Check: These services/payment methods show a higher presence among churners, suggesting potential reliability issues or payment friction.
 
-###3. The Early Tenure Exit
+### 3. The Early Tenure Exit
 
 Customer loyalty is extremely fragile during the initial period of the relationship.
 
@@ -56,7 +56,7 @@ Based on the quantitative findings, three focused strategic pillars are recommen
 
 
 
-###Pillar 1: Convert
+### Pillar 1: Convert
 	
 
 Structural Stability
@@ -64,7 +64,7 @@ Structural Stability
 
 Launch aggressive, high-value incentives to migrate all Month-to-Month customers to 1- or 2-year contracts.
 
-###Pillar 2: Embed
+### Pillar 2: Embed
 	
 
 Confidence & Risk Reduction
@@ -72,7 +72,7 @@ Confidence & Risk Reduction
 
 Bundle or deeply subsidize Tech Support and Device Protection into core plans, making them standard components rather than optional add-ons.
 
-###Pillar 3: Stabilize
+### Pillar 3: Stabilize
 	
 
 New Customer Loyalty
