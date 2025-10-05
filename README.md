@@ -1,5 +1,5 @@
 # Churn Analysis & Retention Strategy
-Project Overview
+##Project Overview
 
 This repository contains the core analytical artifact (Churn_Analysis.pbix) used to understand, quantify, and address customer attrition. The project's goal is to identify the structural drivers of customer churn and provide data-backed recommendations for immediate retention strategy adjustments.
 
