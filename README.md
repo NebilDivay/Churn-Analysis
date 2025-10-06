@@ -9,7 +9,7 @@ The analysis is based on a dataset of 7,043 customers, showing an overall churn 
 The dashboard reveals that churn is not random, but concentrated in three specific, high-leverage areas. Fixing these structural issues will have the greatest impact on long-term retention.
 ### 1. The Contract Volatility Trap (The Primary Driver)
 
-Month-to-Month
+#### Contract Type: Month-to-Month
 	
 
 % of Total Finding: 88.5%
@@ -25,7 +25,7 @@ This contract type is the single largest predictor of churn. Customers on flexib
 	
 
 
-Contract Type: One Year / Two Year
+#### Contract Type: One Year / Two Year
 	
 
 % of Total Finding: 11.5%
@@ -50,7 +50,7 @@ Customer loyalty is extremely fragile during the initial period of the relations
 
     Stability: Churn risk drops dramatically once customers are retained past the one-year mark.
 
-##Strategic Action Recommendations (3-Pillar Strategy)
+## Strategic Action Recommendations (3-Pillar Strategy)
 
 Based on the quantitative findings, three focused strategic pillars are recommended for immediate implementation:
 
@@ -81,6 +81,7 @@ New Customer Loyalty
 Implement a high-touch, mandatory 90-day onboarding and retention campaign focused specifically on resolving friction points for customers in their first year.
 Report Contents
 
+## Files 
 The following files are included in this project:
 
 
