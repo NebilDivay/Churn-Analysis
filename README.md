@@ -63,7 +63,7 @@ Based on the quantitative findings, three focused strategic pillars are recommen
 ### Pillar 1: Convert
 	
 
-A. Push Multi-Year Contracts
+Push Multi-Year Contracts
 	
 
 Offer loyalty points, small discounts, or exclusive perks for annual renewals.
