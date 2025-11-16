@@ -3,16 +3,16 @@
 
 This repository contains the core analytical artifact (Churn_Analysis.pbix) used to understand, quantify, and address customer attrition. The project's goal is to identify the structural drivers of customer churn and provide data-backed recommendations for immediate retention strategy adjustments.
 
-The analysis is based on a dataset of 7,043 customers, showing an overall churn rate of 26.55%.
+The analysis is based on a dataset of 6,418 customers, showing an overall churn rate of 26.98%.
 ## Key Analytical Findings
 
-The dashboard reveals that churn is not random, but concentrated in three specific, high-leverage areas. Fixing these structural issues will have the greatest impact on long-term retention.
+
 ### 1. The Contract Volatility Trap (The Primary Driver)
 
 #### Contract Type: Month-to-Month
 	
 
-% of Total Finding: 88.5%
+% of Total Finding: 42.5%
 	
 
 Finding: 
@@ -28,25 +28,29 @@ This contract type is the single largest predictor of churn. Customers on flexib
 #### Contract Type: One Year / Two Year
 	
 
-% of Total Finding: 11.5%
+% of Total Finding: 13.7%
 	
 
 Finding: Longer-term contracts are highly effective retention mechanisms.
 ### 2. The Service Protection Gap
 
-Customers are leaving due to a perceived lack of safety net and support when issues arise.
+Key takeaway: Competition and service dissatisfaction cause nearly 80% of all voluntary churn.
+Competitor offerings
+~43%
+Product / Network issues
+~35%
+Price sensitivity
+~11%
+Customer attitude / Other
+~11%
 
-    No Technical Support: Lacking Tech Support accounts for a massive number of churners (1,448).
 
-    No Device Protection: Similarly, lacking Device Protection is a major contributing factor (1,392 churners).
-
-    Fiber Optic and Electronic Check: These services/payment methods show a higher presence among churners, suggesting potential reliability issues or payment friction.
 
 ### 3. The Early Tenure Exit
 
 Customer loyalty is extremely fragile during the initial period of the relationship.
 
-    Vulnerability Window: The vast majority of early churn occurs within the 0–10 month tenure window.
+    Vulnerability Window: The vast majority of early churn occurs within the 0–15 month tenure window.
 
     Stability: Churn risk drops dramatically once customers are retained past the one-year mark.
 
@@ -59,27 +63,36 @@ Based on the quantitative findings, three focused strategic pillars are recommen
 ### Pillar 1: Convert
 	
 
-Structural Stability
+A. Push Multi-Year Contracts
 	
 
-Launch aggressive, high-value incentives to migrate all Month-to-Month customers to 1- or 2-year contracts.
+Offer loyalty points, small discounts, or exclusive perks for annual renewals.
 
-### Pillar 2: Embed
+### Pillar 2: Upsell 
 	
 
-Confidence & Risk Reduction
-	
+Fiber customers produce the highest ARPU, but still churn around 30%.
+ Give them the VIP treatment:
+Priority customer support
 
-Bundle or deeply subsidize Tech Support and Device Protection into core plans, making them standard components rather than optional add-ons.
+
+Loyalty rewards
+
+
+Free device protection upgrades
+
 
 ### Pillar 3: Stabilize
 	
 
-New Customer Loyalty
-	
+Solve Churn Root Causes
+Competitor issues: Improve pricing competitiveness and bundle value.
 
-Implement a high-touch, mandatory 90-day onboarding and retention campaign focused specifically on resolving friction points for customers in their first year.
-Report Contents
+
+Dissatisfaction: Strengthen network reliability and send proactive outage alerts.
+
+
+Price concerns: Offer mid-cycle discounts or flexible payment plans.
 
 ## Files 
 The following files are included in this project:
